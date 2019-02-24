@@ -1,12 +1,11 @@
 \documentclass[10pt]{article}
-\usepackage[total={6.5in,9.5in}]{geometry}
+\usepackage[total={7in,9.25in}]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage{tabularx}
 \usepackage{array}
-\usepackage{xcolor}
+%\usepackage{hypenat}
 \usepackage{hyperref}
-\usepackage{graphicx}
-\graphicspath{ {./images/} }
+\usepackage{xcolor}
+\usepackage{tabularx}
 \author{Jamison Lahman}
 \title{Resume}
 
@@ -34,7 +33,7 @@ Resumé
 
 \noindent {\sffamily \color{darkgray}
 %%% City of residence %%%
-Sunnyvale, CA 94086 
+257 Arriba Drive, Sunnyvale, CA 94086 
 \hspace{12pt}
 %%% Primary phone number %%%
 650-550-0490	
@@ -53,12 +52,12 @@ lahmanja@protonmail.com
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Objective/Summary
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent{\Huge \color{darkred}
+\noindent{\LARGE \color{darkred}
 Objective
 }
 
 \vspace{-6pt} \noindent \hrulefill \\
-\vspace{6pt}{\sffamily
+\rule{0pt}{2.6ex}{\sffamily
 %%% Short description of what you objectives and expectations
 To help improve the lives of as many people as possible.
 }
@@ -70,68 +69,141 @@ To help improve the lives of as many people as possible.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Experience
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent{\Huge \color{darkred}
+\noindent{\LARGE \color{darkred}
 Experience
 }
 
-\vspace{-6pt} \noindent \hrulefill \\
+\vspace{-6pt} \noindent \hrulefill
 
 \noindent{\sffamily \color{darkgray}
 \begin{tabular}{
-	p{\dimexpr.84\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+	% From https://tex.stackexchange.com/a/84401
+	p{\dimexpr.83\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
 	% Flushes the dates to the right
 	>{\raggedleft\arraybackslash}
-	p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+	p{\dimexpr.17\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
 	}
-	\textbf{Software Quality Operations} --- Waymo LLC, Mountain View, CA 
+	\rule{-9pt}{2.6ex}\textbf{
+	%%% Job title
+	Software Quality Operations
+	} --- 
+	%%% Company, location	
+	Waymo LLC, Mountain View, CA 
 	\begin{description}
-		\item[\hspace{8pt} $\bullet$\hspace{4pt}]
-		Reviewed simulations and evaluated the quality of a self-driving vehicle.
-		\item[\hspace{8pt} $\bullet$\hspace{4pt}]
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Reviewed simulations and evaluated the quality of self-driving vehicles.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
 		Provided first-pass analysis of simulator crashes and unit test failures.
-		\item[\hspace{8pt} $\bullet$]Created and maintained dashboards using Google’s Dremel query en Cgine as well as custom Apps Scripts to efficiently organize and track work.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Created dashboards using Google’s Dremel query system as well as custom Apps Scripts to organize, optimize, and track work.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]		
+		%%% Job description
+		Discovered, reproduced, and documented bugs in software tools.
 	\end{description} &
 	%%% End date (keeping months less than 4 character)
-	June 2017 -- Present \\
-
-	%%% Job title, company, location
-	\textbf{Software Quality Operations} --- Waymo LLC, Mountain View, CA 
+	June 2017 -- Present\\	
+	
+	\rule{-9pt}{0ex}\textbf{
+	%%% Job title	
+	Student Manager, Culinary Services
+	} --- 
+	%%% Company, location
+	Ohio University, Athens, OH
 	\begin{description}
-		\item[\hspace{10pt} $\bullet$]
-		%%% 1st job description
-		Reviewed simulations and evaluated the quality of a self-driving vehicle.
-		\item[\hspace{10pt} $\bullet$\hspace{4pt}]
-		Reviewed simulations and evaluated the quality of a self-driving vehicle.
-	\end{description} & 
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Responsible for the training and supervision of crews of 10-30 student employees.
+	\end{description} &
 	%%% End date (keeping months less than 4 character)
-	Mar 2016 -- Mar 2017 \\
+	June 2015 -- April 2017\\
+	
+	
+	\rule{-9pt}{0ex}\textbf{
+	%%% Job title
+	Student Writer, Department of Physics
+	} --- 
+	%%% Company, location	
+	Ohio University, Athens, OH
+	\begin{description}
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Interviewed faculty, staff, and students to articulated complex, scientific ideas for an Internet newsletter intended for a general audience.	
+	\end{description} &
+	%%% End date (keeping months less than 4 character)
+	Aug 2016 -- March 2017\\
+	
+	\rule{-9pt}{0ex}\textbf{
+	%%% Job title
+	Undergraduate Researcher, Physics
+	} --- 
+	%%% Company, location	
+	Ohio University, Athens, OH
+	\begin{description}
+		\item[\hspace{8pt} $\bullet$\hspace{4pt}]
+		Used numerical analysis to create programs which investigated general physics problems such as: the quantization of molecular vibrations from both modern and semi-classical approaches.
+	\end{description} &
+	%%% End date (keeping months less than 4 character)
+	June 2016 -- Aug 2016\\
 \end{tabular}
 }
-
-
-\vspace{16pt}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Education
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent{\Huge \color{darkred}
+\noindent{\LARGE \color{darkred}
 Education
 }
 
-\vspace{-6pt} \noindent \hrulefill \\
-\vspace{6pt}{\sffamily \color{darkgray}
-\textbf{Bachelor of Science in Applied Physics} --- Ohio Univerity, Athens, OH
-\begin{description}
-	\item[\hspace{16pt} \sffamily GPA:] 3.5
-	\item[\hspace{16pt} \sffamily Coursework:]
-	\begin{tabularx}{.8\textwidth}{XXX}
-	Quantum Mechanics & Electricity \& Magnetism & Classical Mechanics \bigskip \\
-	Partial Differential Equations & Numerical Analysis With {\sc Matlab} & text \\
-	\end{tabularx}
-\end{description}
-\textbf{Bachelor of Science in Applied Physics} --- Ohio Univerity, Athens, OH
+\vspace{-6pt} \noindent \hrulefill
+
+\noindent{\sffamily \color{darkgray}
+\begin{tabular}{
+	% From https://tex.stackexchange.com/a/84401
+	p{\dimexpr.83\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+	% Flushes the dates to the right
+	>{\raggedleft\arraybackslash}
+	p{\dimexpr.17\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+	}
+	\rule{-9pt}{2.6ex}\textbf{
+	%%% Degree
+	Bachelor of Science in Applied Physics
+	} --- 
+	%% University	
+	Ohio Univerity, Athens, OH
+	\begin{description}
+		\item[\hspace{8pt} \sffamily GPA:] 3.5
+		\item
+		\begin{tabular}{
+			>{\raggedright}
+			p{\dimexpr.21\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+			>{\raggedright}
+			p{\dimexpr.30\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+			>{\raggedright}
+			p{\dimexpr.29\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+			>{\raggedright\arraybackslash}
+			p{\dimexpr.30\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+			}
+			\textbf{Coursework:}& Quantum Mechanics & Stellar Astrophysics & Classical Mechanics \\
+			&\rule{0pt}{2.6ex}Data Analysis for Physical Sciences & Thermal \& Statistical Physics & Electricity \& Magnetism \\
+			&\rule{0pt}{2.6ex}Numerical Analysis with MATLAB & Applied Linear Algebra & Partial Differential Equations \\
+			&\rule{0pt}{2.6ex}Electricity \& Circuits Lab & Observational Astrophysics Lab & Nuclear Physics Lab \\
+		\end{tabular}
+	\end{description}
+	&
+	%%% End date (keeping months less than 4 character)
+	Aug 2014 – April 2017 \\
+	
+	\rule{-9pt}{2.6ex}\textbf{
+	%%% Degree
+	Mathematics Minor
+	} --- 
+	%%% University	
+	Ohio Univerity, Athens, OH
+	&
+	Aug 2014 – April 2017 \\
+\end{tabular}
 }
-
-
 \end{document}
