@@ -1,0 +1,137 @@
+\documentclass[10pt]{article}
+\usepackage[total={6.5in,9.5in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\author{Jamison Lahman}
+\title{Resume}
+
+% Define font package
+\usepackage{dejavu}
+\usepackage[T1]{fontenc}
+
+% Define custom colors
+\definecolor{darkred}{rgb}{0.55, 0.0, 0.0}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent {\Huge \color{darkred}
+% Name
+Jamison Lahman
+}
+{\LARGE \color{darkgray} \sffamily --- \hspace{1pt}
+%%% Document title %%%
+Resumé
+}
+\vspace{4pt}
+
+\noindent {\sffamily \color{darkgray}
+%%% City of residence %%%
+Sunnyvale, CA 94086 
+\hspace{12pt}
+%%% Primary phone number %%%
+650-550-0490	
+\hspace{12pt}
+%%%	Primary email %%%
+{\href{mailto:
+lahmanja@protonmail.com
+}{
+lahmanja@protonmail.com
+}}}
+
+
+\vspace{30pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Objective/Summary
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent{\Huge \color{darkred}
+Objective
+}
+
+\vspace{-6pt} \noindent \hrulefill \\
+\vspace{6pt}{\sffamily
+%%% Short description of what you objectives and expectations
+To help improve the lives of as many people as possible.
+}
+
+
+\vspace{16pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent{\Huge \color{darkred}
+Experience
+}
+
+\vspace{-6pt} \noindent \hrulefill \\
+
+\noindent{\sffamily \color{darkgray}
+\begin{tabular}{
+	p{\dimexpr.84\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+	% Flushes the dates to the right
+	>{\raggedleft\arraybackslash}
+	p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+	}
+	\textbf{Software Quality Operations} --- Waymo LLC, Mountain View, CA 
+	\begin{description}
+		\item[\hspace{8pt} $\bullet$\hspace{4pt}]
+		Reviewed simulations and evaluated the quality of a self-driving vehicle.
+		\item[\hspace{8pt} $\bullet$\hspace{4pt}]
+		Provided first-pass analysis of simulator crashes and unit test failures.
+		\item[\hspace{8pt} $\bullet$]Created and maintained dashboards using Google’s Dremel query en Cgine as well as custom Apps Scripts to efficiently organize and track work.
+	\end{description} &
+	%%% End date (keeping months less than 4 character)
+	June 2017 -- Present \\
+
+	%%% Job title, company, location
+	\textbf{Software Quality Operations} --- Waymo LLC, Mountain View, CA 
+	\begin{description}
+		\item[\hspace{10pt} $\bullet$]
+		%%% 1st job description
+		Reviewed simulations and evaluated the quality of a self-driving vehicle.
+		\item[\hspace{10pt} $\bullet$\hspace{4pt}]
+		Reviewed simulations and evaluated the quality of a self-driving vehicle.
+	\end{description} & 
+	%%% End date (keeping months less than 4 character)
+	Mar 2016 -- Mar 2017 \\
+\end{tabular}
+}
+
+
+\vspace{16pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent{\Huge \color{darkred}
+Education
+}
+
+\vspace{-6pt} \noindent \hrulefill \\
+\vspace{6pt}{\sffamily \color{darkgray}
+\textbf{Bachelor of Science in Applied Physics} --- Ohio Univerity, Athens, OH
+\begin{description}
+	\item[\hspace{16pt} \sffamily GPA:] 3.5
+	\item[\hspace{16pt} \sffamily Coursework:]
+	\begin{tabularx}{.8\textwidth}{XXX}
+	Quantum Mechanics & Electricity \& Magnetism & Classical Mechanics \bigskip \\
+	Partial Differential Equations & Numerical Analysis With {\sc Matlab} & text \\
+	\end{tabularx}
+\end{description}
+\textbf{Bachelor of Science in Applied Physics} --- Ohio Univerity, Athens, OH
+}
+
+
+\end{document}
