@@ -1,12 +1,17 @@
 \documentclass[10pt]{article}
-\usepackage[total={7in,9.25in}]{geometry}
+\usepackage[margin=0.75in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{array}
+\usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{tabularx}
+\usepackage{verbatim}
+\graphicspath{ {./Images/} }
 \author{Jamison Lahman}
 \title{Resume}
+
+\pagenumbering{gobble}
 
 % Define font package
 \usepackage{dejavu}
@@ -30,11 +35,10 @@ Jamison Lahman
 Resumé
 }
 
-
 \vspace{4pt}
 
 
-\noindent {\sffamily \color{darkergray}
+\noindent {\sffamily \color{darkgray}
 %%% City of residence %%%
 257 Arriba Drive, Sunnyvale, CA 94086 
 \hspace{12pt}
@@ -157,7 +161,7 @@ Experience
 		{\color{darkgray}
 		\item[\hspace{8pt} $\bullet$\hspace{4pt}]
 		%%% Job description
-		Used numerical analysis to create programs which investigated general physics problems such as: the quantization of molecular vibrations from both modern and semi-classical methods.
+		Used numerical analysis to create programs which investigated general physics problems such as the quantization of molecular vibrations with both modern and semi-classical techniques.
 		}
 	\end{description} &
 	%%% End date (keeping months less than 4 character)
@@ -186,11 +190,14 @@ Education
 	%%% Degree
 	Bachelor of Science in Applied Physics
 	}{\color{gray} --- 
-	%% University	
+	%%% University	
 	Ohio Univerity, Athens, OH
 	}
 	\begin{description}
-		\item[\hspace{8pt} \sffamily GPA:] 3.5
+		\item[\hspace{8pt} \sffamily GPA:]{\color{darkgray} 
+		%%% GPA
+		3.5
+		}
 		\item
 		{\color{darkgray}
 		\begin{tabular}{
