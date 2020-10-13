@@ -1,3 +1,9 @@
+# Bazel
+bazel-bin
+bazel-out
+bazel-resume
+bazel-testlogs
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

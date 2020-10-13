@@ -15,8 +15,9 @@
 \pagenumbering{gobble}
 
 % Define font package
-\usepackage{dejavu}
-\usepackage[T1]{fontenc}
+% TODO(jamison): Add rule for dejavu upstream/locally.
+% \usepackage{dejavu}
+% \usepackage[T1]{fontenc}
 
 % Define custom colors
 \definecolor{darkergray}{rgb}{0.1, 0.1, 0.1}
@@ -41,10 +42,10 @@ Resumé
 
 \noindent {\sffamily \color{darkgray}
 %%% City of residence
-257 Arriba Drive, Sunnyvale, CA 94086 
+257 Arriba Drive, Sunnyvale, CA 94086
 \hspace{12pt}
 %%% Primary phone number
-650-550-0490	
+650-550-0490
 \hspace{12pt}
 %%%	Primary email
 {\href{mailto:
@@ -93,51 +94,62 @@ Experience
 	}
 	\rule{-9pt}{2.6ex}\textbf{
 	%%% Job title
+	QA Engineer, Applied Intuition, Inc.
+	}{\color{gray} ---
+	%%% Company, location
+	Sunnyvale, CA
+	}
+	\begin{description}
+		{\color{darkgray}
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Wrote end-to-end and visual regresion tests via Selenium WebDriver.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Ported bash integration test scripts to Python unit testing framework.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Maintained a CI/CD pipeline via Buildkite including the adminstistration of
+    the local, Azure, and AWS EC2 cloud machines used therein.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Owned and configured a Version Control System via Github.
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
+		%%% Job description
+		Wrote features, bug fixes, and unit tests for the front-end of a React web
+    application.
+		}
+	\end{description} &
+	%%% End date (keeping months less than 4 character)
+	June 2015 -- April 2017\\
+
+	\rule{-9pt}{0ex}\textbf{
+	%%% Job title
 	Software Quality Operations
-	}{\color{gray} --- 
-	%%% Company, location	
+	}{\color{gray} ---
+	%%% Company, location
 	Waymo LLC, Mountain View, CA
 	}
 	\begin{description}
-		{\color{darkgray}		
-		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
-		%%% Job description
-		Reviewed simulations and evaluated the quality of self-driving vehicles.
+		{\color{darkgray}
 		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
 		%%% Job description
 		Provided first-pass analysis of simulator crashes and unit test failures.
 		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
 		%%% Job description
 		Created dashboards using Google’s Dremel query system as well as custom Apps Scripts to track, organize, and optimize work.
-		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]		
+		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
 		%%% Job description
 		Discovered, reproduced, and documented bugs in software tools.
 		}
 	\end{description} &
 	%%% End date (keeping months less than 4 character)
-	June 2017 -- Present\\	
-	
-	\rule{-9pt}{0ex}\textbf{
-	%%% Job title	
-	Student Manager, Culinary Services
-	}{\color{gray} --- 
-	%%% Company, location
-	Ohio University, Athens, OH
-	}
-	\begin{description}
-		{\color{darkgray}
-		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
-		%%% Job description
-		Responsible for the training and supervision of crews of 10-30 student employees.
-		}	
-	\end{description} &
-	%%% End date (keeping months less than 4 character)
-	June 2015 -- April 2017\\
-	
+	June 2017 -- Present\\
+
 	\rule{-9pt}{0ex}\textbf{
 	%%% Job title
 	Student Writer, Department of Physics
-	}{\color{gray} --- 
+	}{\color{gray} ---
 	%%% Company, location
 	Ohio University, Athens, OH
 	}
@@ -145,16 +157,16 @@ Experience
 		{\color{darkgray}
 		\item[\hspace{8pt} $\bullet$\hspace{3.5pt}]
 		%%% Job description
-		Interviewed faculty, staff, and students to articulated complex, scientific ideas for an Internet newsletter intended for a general audience.	
+		Interviewed faculty, staff, and students to articulated complex, scientific ideas for an Internet newsletter intended for a general audience.
 		}
 	\end{description} &
 	%%% End date (keeping months less than 4 character)
 	Aug 2016 -- March 2017\\
-	
+
 	\rule{-9pt}{0ex}\textbf{
 	%%% Job title
 	Undergraduate Researcher, Physics
-	}{\color{gray} --- 
+	}{\color{gray} ---
 	%%% Company, location
 	Ohio University, Athens, OH
 	}
@@ -191,12 +203,12 @@ Education
 	\rule{-9pt}{2.6ex}\textbf{
 	%%% Degree
 	Bachelor of Science in Applied Physics
-	}{\color{gray} --- 
-	%%% University	
+	}{\color{gray} ---
+	%%% University
 	Ohio Univerity, Athens, OH
 	}
 	\begin{description}
-		\item[\hspace{8pt} \sffamily GPA:]{\color{darkgray} 
+		\item[\hspace{8pt} \sffamily GPA:]{\color{darkgray}
 		%%% GPA
 		3.5
 		}
@@ -222,12 +234,12 @@ Education
 	&
 	%%% End date (keeping months less than 4 character)
 	Aug 2014 – April 2017 \\
-	
+
 	\rule{-9pt}{2.6ex}\textbf{
 	%%% Degree
 	Mathematics Minor
-	}{\color{gray} --- 
-	%%% University	
+	}{\color{gray} ---
+	%%% University
 	Ohio Univerity, Athens, OH
 	} &
 	%%% End date (keeping months less than 4 character)
