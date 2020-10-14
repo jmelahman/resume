@@ -8,13 +8,7 @@ The cover letter is written in a plain text document to allow for easy changes a
 </p>
 
 ## Compiling files
-To make the pdfs using LaTeX, simply run
 
+```shell
+bazel build src:all
 ```
-bash make.sh
-```
-
-from the parent directory.
-
-### Requirements
-``texlive-core``, [Dejavu font](https://www.ctan.org/pkg/dejavu) (I personally just install ``texlive-fontextras``).

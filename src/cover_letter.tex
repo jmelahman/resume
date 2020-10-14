@@ -15,8 +15,9 @@
 \pagenumbering{gobble}
 
 % Define font package
-\usepackage{dejavu}
-\usepackage[T1]{fontenc}
+% TODO(jamison): Load and use dejavu font instead.
+% \usepackage{dejavu}
+% \usepackage[T1]{fontenc}
 
 % Define custom colors
 \definecolor{darkergray}{rgb}{0.1, 0.1, 0.1}
@@ -32,7 +33,7 @@
 Jamison Lahman
 }
 {\LARGE \color{gray} \sffamily --- \hspace{1pt}
-%%% Document title 
+%%% Document title
 Cover Letter
 }
 
@@ -41,10 +42,10 @@ Cover Letter
 
 \noindent {\sffamily \color{darkgray}
 %%% City of residence
-257 Arriba Drive, Sunnyvale, CA 94086 
+257 Arriba Drive, Sunnyvale, CA 94086
 \hspace{12pt}
 %%% Primary phone number
-650-550-0490	
+650-550-0490
 \hspace{12pt}
 %%%	Primary email
 {\href{mailto:
@@ -65,14 +66,14 @@ lahmanja@protonmail.com
 To whom it may concern, \\
 
 \setlength{\parskip}{10pt plus 1pt minus 1pt}
-\input{./txts/cover_letter_generic.txt} 
+\input{src/txts/cover_letter_generic.txt}
 \newline
 
 \noindent
 	Thank you for considering my application,	\\
 
 \noindent
-\includegraphics[width=80pt]{./assets/signature.png} \\
+\includegraphics[width=80pt]{src/assets/signature.png} \\
 	Jamison Lahman
 }
 \end{document}
