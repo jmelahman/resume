@@ -25,6 +25,8 @@ latex_document(
         "@texlive_texmf__texmf-dist__tex__latex__pdfpages",
         "@texlive_texmf__texmf-dist__tex__latex__eso-pic",
         "@texlive_texmf__texmf-dist__tex__latex__graphics",
+        "@texlive_texmf__texmf-dist__tex__latex__graphics-cfg",
+        "@texlive_texmf__texmf-dist__tex__latex__graphics-def",
         "@texlive_texmf__texmf-dist__tex__latex__oberdiek",
         "@texlive_texmf__texmf-dist__tex__generic__ifxetex",
         "@texlive_texmf__texmf-dist__tex__generic__oberdiek",
